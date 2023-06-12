@@ -5,4 +5,5 @@ def return_evens(num_list):
     return evens
 
 def make_exclamation(sentence_list):
-    pass
+    new_str = [string + '!' for string in sentence_list]
+    return new_str
